@@ -1,0 +1,6 @@
+# Built add-on bundles are attached to Releases, not committed.
+*.nvda-addon
+
+# Python bytecode
+__pycache__/
+*.py[cod]

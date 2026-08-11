@@ -1,0 +1,10 @@
+# The engine binaries must never be touched by line-ending conversion.
+*.dll binary
+*.DLL binary
+
+# Source and docs normalise to LF in the repository.
+*.py text eol=lf
+*.md text eol=lf
+*.ini text eol=lf
+*.html text eol=lf
+*.css text eol=lf
