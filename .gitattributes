@@ -1,6 +1,8 @@
-# The engine binaries must never be touched by line-ending conversion.
+# The engine binaries and the host executable must never be touched by
+# line-ending conversion.
 *.dll binary
 *.DLL binary
+*.exe binary
 
 # Source and docs normalise to LF in the repository.
 *.py text eol=lf
